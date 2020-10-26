@@ -26,5 +26,5 @@ public class InventoryDto implements Serializable {
     private OffsetDateTime modifiedOn;
     private UUID beerId;
     private Integer quantityOnHand;
-    
+
 }
