@@ -6,4 +6,4 @@ spring:
     name: inventory-failover
   # port configuration to zipkin
   zipkin:
-    baseUrl: http://localhost:9411/
+    enabled: false
