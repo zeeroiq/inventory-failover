@@ -7,3 +7,9 @@ spring:
   # port configuration to zipkin
   zipkin:
     enabled: false
+
+# eureka client configuration
+eureka:
+  client:
+    service-url:
+      defaultZone: http://netflix:eureka@localhost:8761/eureka
